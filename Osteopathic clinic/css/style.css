@@ -1,0 +1,1233 @@
+body {
+    font-family: "Noto Sans JP";
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: #FFF;
+}
+
+/* ================
+  PCスタイル
+================== */
+/* header */
+#first-view {
+    position: relative;
+    height: 584px;
+}
+
+#nav-list {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    width: 100%;
+}
+
+#nav-list > a {
+    height: fit-content;
+    margin: auto 0;
+}
+
+#logo-pc {
+    width: 200px;
+    height: auto;
+    margin-left: 47px;
+}
+
+#nav-pc {
+    margin-left: 36px;
+    margin-right: 32px;
+}
+
+#nav-pc > a {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #FFF;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#contact-img {
+    width: 172px;
+    height: 44px;
+}
+
+#carousel1 {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* news */
+#news {
+    position: relative;
+    min-width: 980px;
+}
+
+#news-title {
+    display: flex;
+    position: absolute;
+    top: 22px;
+    left: 100px;
+    align-items: baseline;
+}
+
+#news-weight {
+    font-weight: bold;
+    font-size: 24px;
+    color: #468459;
+    margin: 0;
+}
+
+#news-color {
+    color: #468459;
+    font-size: 18px;
+    margin: 0 0 0 10px;
+}
+
+#news-november {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    left: 292px;
+    align-items: baseline;
+}
+
+.news-font-size {
+    font-size: 16px;
+    margin: 0;
+}
+
+#news-btn {
+    border-radius: 4px;
+    padding: 2px 16px;
+    background-color: #468459;
+    color: #ffffff;
+    margin: 0 28px 0 8px;
+}
+
+#news-notice {
+    display: flex;
+    position: absolute;
+    top: 25px;
+    right: 96px;
+}
+
+#news-notice > a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* 当院について */
+#about {
+    padding-top: 180px;
+}
+
+#about-area1 {
+    width: 320px;
+    height: 629px;
+    margin-left: 20%;
+}
+
+#about-area1:before {
+    content: "";
+    display: inline-block;
+    background: url(../images/about/Group\ 2126.png);
+    background-size: cover;
+    width: 400px;
+    height: 506px;
+    position: absolute;
+    top: 870px;
+    left: 52%;
+}
+
+#about-area1:after {
+    content: "";
+    display: inline-block;
+    background: url(../images/background/BGicon_Light.png);
+    background-size: cover;
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    top: 1185px;
+    right: 15%;
+    z-index: -1;
+}
+
+.about-title:before {
+    content: url('../images/deco/Head_01_Icon.png');
+    margin-right: 4px;
+}
+
+.about-title {
+    color: #468459;
+    font-size: 24px;
+    margin: 0;
+}
+
+.about-subtitle {
+    color: #468459;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+#about-catch-copy {
+    color: #468459;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 32px 0 0 0;
+}
+
+#about-catch-copy:before {
+    content: "Concept";
+    color: #DAE2C2;
+    width: 22px;
+    height: 20px;
+    font-family: "Merriweather Sans";
+    font-size: 133.944px;
+    font-weight: normal;
+    opacity: 0.25;
+    display: inline-block;
+    position: absolute;
+    top: 820px;
+    left: 18.5%;
+    z-index: -2;
+}
+
+#about-discription {
+    color: #000;
+    font-size: 16px;
+    margin: 38px 0 24px 0;
+}
+
+#about-btn > span {
+    color: #000;
+    font-family: "Noto Sans CJK JP";
+    font-size: 14px;
+    padding: 3px 23px;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+#about-btn {
+    text-decoration: none;
+    margin-left: 155px;
+}
+
+#about-btn > span:hover {
+    color: #ffffff;
+    background-color: #1B9240;;
+}
+
+/* コース・料金 */
+#course-fee {
+    margin-top: 120px;
+    position: relative;
+}
+
+#course-fee > div {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 4;
+
+}
+
+#course-fee-background1 {
+    width: 100%;
+    height: 1086px;
+}
+
+#course-fee-background2 {
+    color: #E7EDD4;;
+    font-family: "Merriweather Sans";
+    font-style: normal;
+    font-size: 133.944px;
+    position: absolute;
+    top: 170px;
+    left: 83px;
+}
+
+#course-fee-title:before {
+    content: url('../images/deco/Head_02_DecoLeft16.png');
+    margin-right: 18px;
+}
+
+#course-fee-title:after {
+    content: url('../images/deco/Head_02_DecoRight16.png');
+    margin-left: 18px;
+}
+
+#course-fee-title {
+    color: #468459;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 190px;
+}
+
+#course-fee-discription {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 64px 0;
+}
+
+#course-fee-area {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#course-fee-list1 {
+    width: 360px;
+    height: auto;
+    margin-right: 40px;
+}
+
+#course-fee-list2 {
+    width: 360px;
+    height: auto;
+    margin-left: 40px;
+}
+
+#course-fee-area > div > img {
+    width: 360px;
+    height: 300px;
+    border-radius: 24px;
+}
+
+#course-fee-area > div > h1 {
+    color: #0C4324;
+    font-size: 24px;
+    margin: 32px 0 24px 0;
+}
+
+#course-fee-area > div > ul > li {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 14px;
+}
+
+#course-fee-btn {
+    text-decoration: none;
+    width: fit-content;
+    margin: 18px auto 0 auto;
+    display: block;
+}
+
+#course-fee-btn > span {
+    color: #000;
+    font-size: 14px;
+    padding: 3px 24px;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+#course-fee-btn > span:hover {
+    color: #ffffff;
+    background-color: #1B9240;;
+}
+
+#course-fee-background3 {
+    width: 426px;
+    height: 319px;
+    position: absolute;
+    top: 740px;
+    right: 0;
+    z-index: 3;
+}
+
+/* お客様の声 */
+#customer {
+    position: relative;
+    top: -6px;
+}
+
+#customer-carousel1 {
+    width: 100%;
+    height: auto;
+}
+
+#customer-area {
+    margin: 0;
+    width: 600px;
+    height: 300px;
+    border-radius: 600px 600px 0 0;
+    background-color: #ffffff;
+    position: absolute;
+    top: 353px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#customer-title {
+    color: #468459;
+    font-size: 24px;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+}
+
+#customer-title:before {
+    content: url('../images/deco/Head_02_DecoLeft16.png');
+    margin-right: 18px;
+}
+
+#customer-title:after {
+    content: url('../images/deco/Head_02_DecoRight16.png');
+    margin-left: 18px;
+}
+
+#customer-subtitle {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+#customer-list {
+    position: absolute;
+    top: 665px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+}
+
+#customer-list > div {
+    margin: 0 25px;
+}
+
+#customer-list > div > img {
+    border-radius: 120px;
+    width: 240px;
+    height: 240px;
+}
+
+#customer-list > div > h2 {
+    color: #0C4324;
+    font-size: 24px;
+    margin: 32px 0 24px 0;
+}
+
+#customer-list > div > p {
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+}
+
+#customer-btn {
+    text-decoration: none;
+    width: fit-content;
+    display: block;
+    position: absolute;
+    top: 960px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+#customer-btn > span {
+    color: #000;
+    font-size: 14px;
+    padding: 3px 24px;
+    border: 1px solid #000;
+    border-radius: 6px;
+}
+
+#customer-btn > span:hover {
+    color: #ffffff;
+    background-color: #1B9240;
+}
+
+/* マップ */
+#map {
+    margin-top: 830px;
+    position: relative;
+}
+
+.map:before {
+    content: "";
+    display: inline-block;
+    background: url(../images/background/customer-background.png);
+    background-size: cover;
+    width: 100%;
+    height: 702px;
+    position: absolute;
+    top: -150px;
+    z-index: -3;
+}
+
+.map-title {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.map-title:before {
+    content: url('../images/deco/Head_02_DecoLeft16.png');
+    margin-right: 18px;
+}
+
+.map-title:after {
+    content: url('../images/deco/Head_02_DecoRight16.png');
+    margin-left: 18px;
+}
+
+.map-area {
+    display: flex;
+    justify-content: center;
+}
+
+.map-area1 {
+    width: 459px;
+    height: auto;
+    margin-right: 29px;
+}
+
+.map-area1 > img {
+    margin-bottom: 32px;
+    width: 100%;
+    height: auto;
+}
+
+.map-area2 {
+    width: 509px;
+    height: auto;
+    margin-left: 29px;
+}
+
+.map-area2 > iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.map-information1 {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.map-information2 {
+    color: #000;
+    font-size: 16px;
+    margin: 16px 0;
+}
+
+.map-information3 {
+    color: #468459;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+.map-span1 {
+    font-size: 17.778px;
+}
+
+.map-span2 {
+    font-size: 24px;
+}
+
+.map-btn {
+    text-decoration: none;
+    border-radius: 4px;
+    background: #1B9240;
+    padding: 14px 22.9px 15px 21.1px;
+    color: #ffffff;
+}
+
+.top-btn {
+    position: absolute;
+    top: 510px;
+    right: 30px;
+}
+
+/* footer */
+footer {
+    margin-top: 99px;
+}
+#footer-area {
+    padding-top: 40px;
+    padding-bottom: 47px;
+    display: flex;
+    justify-content: center;
+    background-color: #F0F5E1;
+}
+
+#footer-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 21px;
+}
+
+#footer-nav > a {
+    text-decoration: none;
+    margin-left: 26px;
+    font-size: 16px;
+    color: #000;
+}
+
+#copy {
+    background-color: #468459;
+    width: 100%;
+    height: auto;
+}
+
+#copy > p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 12px 0;
+}
+
+/* about.html */
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.header-logo-pc {
+    width: 200px;
+    height: 27.91px;
+    margin-left: 47px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: #468459;
+    margin-left: 40px;
+    line-height: 27.91px;
+}
+
+.header-btn {
+    text-decoration: none;
+    margin: 0 32px 0 36px;
+}
+
+.header-btn > span {
+    padding: 11px 16px 13px 16px;
+    border-radius: 4px;
+    background-color: #0C4324;
+    color: #ffffff;
+}
+
+/* メイン写真 */
+.main-img {
+    width: 100%;
+    height: auto;
+}
+
+/* リンク */
+.hyperlink {
+    color: #0c4324;
+    margin: 24px 0 0 155px;
+}
+
+.hyperlink > a {
+    text-decoration: none;
+    color: #0C4324;
+}
+
+.hyperlink > span {
+    margin: 0 4.5px;
+}
+
+/* 当院について */
+#about1 {
+    margin-top: 140px;
+}
+
+#about-catch-copy1 {
+    color: #468459;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 32px 0 0 0;
+}
+
+#about-catch-copy1:before {
+    content: "Concept";
+    color: #DAE2C2;
+    width: 22px;
+    height: 20px;
+    font-family: "Merriweather Sans";
+    font-size: 133.944px;
+    font-weight: normal;
+    opacity: 0.25;
+    display: inline-block;
+    position: absolute;
+    top: 705px;
+    left: 18.5%;
+    z-index: -2;
+}
+
+#about-area1-1 {
+    width: 320px;
+    height: 629px;
+    margin-left: 20%;
+}
+
+#about-area1-1:before {
+    content: "";
+    display: inline-block;
+    background: url(../images/about/Group\ 2126.png);
+    background-size: cover;
+    width: 400px;
+    height: 506px;
+    position: absolute;
+    top: 750px;
+    left: 52%;
+}
+
+#about-area1-1:after {
+    content: "";
+    display: inline-block;
+    background: url(../images/background/BGicon_Light.png);
+    background-size: cover;
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    top: 1065px;
+    right: 15%;
+    z-index: -1;
+}
+
+.about-area2 {
+    width: 320px;
+    margin-top: 285px;
+    margin-left: 20%;
+}
+
+.about-area2 > ol {
+    margin: 108px 0 0 0;
+    padding-left: 20px;
+}
+
+.about-area2 > ol > li {
+    margin-bottom: 15px;
+}
+
+.about-subtitle:before {
+    content: "Flow";
+    color: #DAE2C2;
+    font-family: "Merriweather Sans";
+    width: 22px;
+    height: 20px;
+    font-size: 133.944px;
+    font-weight: normal;
+    opacity: 0.25;
+    display: inline-block;
+    position: absolute;
+    top: 1630px;
+    left: 18.5%;
+    z-index: -10;
+}
+
+.about-area2:before {
+    content: "";
+    display: inline-block;
+    background: url(../images/about/Group\ 2127.png);
+    background-size: cover;
+    width: 400px;
+    height: 506px;
+    position: absolute;
+    top: 1620px;
+    left: 52%;
+}
+
+.about-area2:after {
+    content: "";
+    display: inline-block;
+    background: url(../images/background/BGicon_Light.png);
+    background-size: cover;
+    width: 350px;
+    height: 340px;
+    position: absolute;
+    top: 1865px;
+    right: 15%;
+    z-index: -9;
+}
+
+.about-area3 {
+    margin-top: 350px;
+}
+
+.about-area3-title {
+    color: #468459;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.about-area3-title:before {
+    content: url('../images/deco/Head_02_DecoLeft16.png');
+    margin-right: 18px;
+}
+
+.about-area3-title:after {
+    content: url('../images/deco/Head_02_DecoRight16.png');
+    margin-left: 18px;
+}
+
+.about-area3-subtitle {
+    color: #468459;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.about-area3 > div {
+    max-width: 1056px;
+    margin: 64px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.about-area3 > div > div > img {
+    border-radius: 25px;
+}
+
+.about-area3 > div > div > p {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    margin: 32px 0 0 0;
+}
+
+/* マップ */
+.map {
+    margin-top: 240px;
+    position: relative;
+}
+
+/* footer */
+.footer {
+    margin-top: 99px;
+}
+
+.footer-area {
+    padding-top: 40px;
+    padding-bottom: 47px;
+    display: flex;
+    justify-content: center;
+    background-color: #F0F5E1;
+}
+
+.footer-logo {
+    width: 200px;
+    height: auto;
+    margin-right: 21px;
+}
+
+.footer-nav > a {
+    text-decoration: none;
+    margin-left: 26px;
+    font-size: 16px;
+    color: #000;
+}
+
+.copy {
+    background-color: #468459;
+    width: 100%;
+    height: auto;
+}
+
+.copy > p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    padding: 12px 0;
+}
+
+/* コース・料金 */
+#course-fee-background {
+    background-color: #FAFAFA;
+}
+
+#course-fee-title1:before {
+    content: url('../images/deco/Head_02_DecoLeft16.png');
+    margin-right: 18px;
+}
+
+#course-fee-title1:after {
+    content: url('../images/deco/Head_02_DecoRight16.png');
+    margin-left: 18px;
+}
+
+#course-fee-title1 {
+    color: #468459;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 64px;
+}
+
+#course-fee-discription1 {
+    color: #468459;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0 64px 0;
+}
+
+#course-fee-area {
+    padding-bottom: 50px;
+}
+
+#course-fee-area2 {
+    position: relative;
+}
+
+#course-fee-area2-1 {
+    width: 385px;
+    height: auto;
+    position: absolute;
+    top: 270px;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#course-fee-area2-2 {
+    width: 385px;
+    height: auto;
+    position: absolute;
+    top: 800px;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#course-fee-area2-1:after {
+    content: "";
+    display: inline-block;
+    background: url(../images/course-fee/TOP-insurance2.png);
+    background-size: cover;
+    width: 35vw;
+    height: 320px;
+    border-radius: 24px;
+    position: absolute;
+    top: -10px;
+    left: 450px;
+    z-index: -15;
+}
+
+#course-fee-area2-2:after {
+    content: "";
+    display: inline-block;
+    background: url(../images/course-fee/TOP-self2.png);
+    background-size: cover;
+    width: 35vw;
+    height: 320px;
+    border-radius: 24px;
+    position: absolute;
+    top: -10px;
+    left: 450px;
+    z-index: -16;
+}
+
+.course-fee-area2-title {
+    color: #468459;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.course-fee-area2-title:before {
+    content: url('../images/deco/Head_01_Icon.png');
+    margin-right: 4px;
+}
+
+.course-fee-area2-subtitle {
+    color: #468459;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+#course-fee-area2-1 > p {
+    color: #000;
+    font-size: 16px;
+    margin: 32px 0;
+}
+
+#course-fee-area2-1 > ul {
+    padding-left: 36px;
+}
+
+#course-fee-area2-1 > ul > li {
+    margin: 17px 0;
+}
+
+#course-fee-area2-2 > p {
+    color: #000;
+    font-size: 16px;
+    margin: 32px 0;
+}
+
+#course-fee-area2-2 > ul {
+    padding-left: 36px;
+}
+
+#course-fee-area2-2 > ul > li {
+    margin: 17px 0;
+}
+
+#course-fee-map {
+    margin-top: 1200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 960px) {
+    /* header */
+    #first-view {
+        height: 425px;
+    }
+
+    #nav-pc > a {
+        margin-left: 18px;
+    }
+
+    /* news */
+    #news-title {
+        left: 20px;
+    }
+
+    #news-november {
+        left: 212px;
+    }
+
+    #news-notice {
+        right: 180px;
+    }
+
+    /* 当院について */
+    #about-area1:before {
+        top: 700px;
+    }
+
+    #about-area1:after {
+        top: 1015px;
+    }
+
+    #about-area1 {
+        margin-left: 7.5%;
+    }
+
+    #about-area1:before {
+        left: 48%;
+    }
+
+    #about-area1:after {
+        right: 0;
+    }
+
+    #about-catch-copy:before {
+        top: 660px;
+        left: 2.5%;
+    }
+
+    /* コース・料金 */
+    #course-fee-area > div > img {
+        width: 340px;
+        height: 280px;
+    }
+
+    #course-fee-list1{
+        width: 340px;
+        height: auto;
+        margin-right: 20px;
+    }
+
+    #course-fee-list2 {
+        width: 340px;
+        height: auto;
+        margin-left: 20px;
+    }
+
+    /* お客様の声 */
+    #customer-area {
+        top: 300px;
+    }
+
+    #customer-list {
+        top: 612px;
+    }
+
+    #customer-list > div {
+        margin: 0 15px;
+    }
+
+    #customer-list > div > img {
+        width: 220px;
+        height: auto;
+    }
+
+    #customer-btn {
+        top: 907px;
+    }
+
+    /* footer*/
+    #footer-logo {
+        width: 180px;
+        height: auto;
+    }
+
+    #footer-nav > a {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .top-btn {
+        top: 490px;
+    }
+
+    /* about.html */
+    #about-catch-copy1:before {
+        top: 615px;
+        left: 2.5%;
+    }
+
+    #about-area1-1 {
+        margin-left: 8%;
+    }
+
+    #about-area1-1:before {
+        top: 650px;
+        left: 49%;
+    }
+
+    #about-area1-1:after {
+        top: 875px;
+        right: 1%;
+    }
+
+    .about-subtitle:before {
+        top: 1550px;
+        left: 2.5%;
+    }
+
+    .about-area2 {
+        margin-left: 8%;
+    }
+    
+    .about-area2:before {
+        top: 1520px;
+        left: 49%;
+    }
+    
+    .about-area2:after {
+        top: 1765px;
+        right: 1%;
+    }
+
+    .about-area3 > div > div > img {
+        width: 250px;
+        height: 250px;
+    }
+
+    /* course-fee.html */
+    #course-fee-area2-1:after {
+        left: 180px;
+        width: 520px;
+    }
+
+    #course-fee-area2-2:after {
+        left: 180px;
+        width: 520px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    #news {
+        position: relative;
+        min-width: 100%;
+    }
+
+    #news-title {
+        width: 100%;
+        clear: both;
+    }
+
+    #news-november {
+        width: 40%;
+        left: 15px;
+        top: 50px;
+    }
+
+    .news-font-size {
+        width: 100%;
+        float: none;
+    }
+
+    #news-btn {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
